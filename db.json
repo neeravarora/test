@@ -1,74 +1,71 @@
 {
-   "OverallHealth":{
-      "isHealthy":"Live"
-   },
-   "SchemaVersion":"1.0",
-   "version":1,
-   "StartTime":{
-      "timestamp":1597036163152,
-      "iso":"2020-08-10T05:09:23.152Z",
-      "uptime":"13d 00h 07m 10s"
-   },
-   "CurrentTime":{
-      "timestamp":1597036163152,
-      "iso":"2020-08-10T05:09:23.152Z"
-   },
-   "ArtifactInstances":[
-      
-   ],
-   "health":[
-      {
-         "responsetime":1123630,
-         "plan":"advanced",
-         "status":0
-      }
-   ],
-   "buildId":"202008050904-1051",
-   "PerformanceHealth":{
-      "Entry_Timestamp":1597036163152,
-      "Entry_iso":"2020-08-10T05:09:23.152Z",
-      "Exit_Timestamp":1598159793981,
-      "Exit_iso":"2020-08-23T05:16:33.981Z"
-   },
-   "Build":{
-      "build_id":"",
-      "BuildTime":{
-         "iso":"",
-         "timeStamp":0
-      },
-      "build_name":""
-   },
-   "Tests":[
-      {
-         "Status":"Pass",
-         "Stop_Timestamp":1598159712817,
-         "Start_iso":"2020-08-23T05:15:12.817Z",
-         "Start_Timestamp":1598159712817,
-         "Stop_iso":"2020-08-23T05:15:12.817Z",
-         "Name":"isAbcWorking",
-         "Result":"LIVE"
-      },
-      {
-         "Status":"Pass",
-         "Stop_Timestamp":1598159712887,
-         "Start_iso":"2020-08-23T05:15:12.817Z",
-         "Start_Timestamp":1598159712817,
-         "Stop_iso":"2020-08-23T05:15:12.887Z",
-         "Name":"isXYZServiceUp",
-         "Result":"LIVE"
-      },
-      {
-         "Status":"Pass",
-         "Stop_Timestamp":1598159712952,
-         "Start_iso":"2020-08-23T05:15:12.887Z",
-         "Start_Timestamp":1598159712887,
-         "Stop_iso":"2020-08-23T05:15:12.952Z",
-         "Name":"isAquaUp",
-         "Result":"LIVE"
-      }
-   ],
-   "service":"ABC Cloud messaging service",
-   "Dependencies":[
-      
-   ]
+	"OverallHealth": {
+		"isHealthy": "Live"
+	},
+	"SchemaVersion": "1.0",
+	"version": 1,
+	"StartTime": {
+		"timestamp": 1597036163152,
+		"iso": "2020-08-10T05:09:23.152Z",
+		"uptime": "13d 00h 07m 10s"
+	},
+	"CurrentTime": {
+		"timestamp": 1597036163152,
+		"iso": "2020-08-10T05:09:23.152Z"
+	},
+	"ArtifactInstances": [
+
+	],
+	"health": [{
+		"responsetime": 1123630,
+		"plan": "advanced",
+		"status": 0
+	}],
+	"buildId": "202008050904-1051",
+	"PerformanceHealth": {
+		"Entry_Timestamp": 1597036163152,
+		"Entry_iso": "2020-08-10T05:09:23.152Z",
+		"Exit_Timestamp": 1598159793981,
+		"Exit_iso": "2020-08-23T05:16:33.981Z"
+	},
+	"Build": {
+		"build_id": "",
+		"BuildTime": {
+			"iso": "",
+			"timeStamp": 0
+		},
+		"build_name": ""
+	},
+	"Tests": [{
+			"Status": "Pass",
+			"Stop_Timestamp": 1598159712817,
+			"Start_iso": "2020-08-23T05:15:12.817Z",
+			"Start_Timestamp": 1598159712817,
+			"Stop_iso": "2020-08-23T05:15:12.817Z",
+			"Name": "isAbcWorking",
+			"Result": "LIVE"
+		},
+		{
+			"Status": "Pass",
+			"Stop_Timestamp": 1598159712887,
+			"Start_iso": "2020-08-23T05:15:12.817Z",
+			"Start_Timestamp": 1598159712817,
+			"Stop_iso": "2020-08-23T05:15:12.887Z",
+			"Name": "isXYZServiceUp",
+			"Result": "LIVE"
+		},
+		{
+			"Status": "Pass",
+			"Stop_Timestamp": 1598159712952,
+			"Start_iso": "2020-08-23T05:15:12.887Z",
+			"Start_Timestamp": 1598159712887,
+			"Stop_iso": "2020-08-23T05:15:12.952Z",
+			"Name": "isAquaUp",
+			"Result": "LIVE"
+		}
+	],
+	"service": "ABC Cloud messaging service",
+	"Dependencies": [
+
+	]
 }
